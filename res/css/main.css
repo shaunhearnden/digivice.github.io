@@ -17,13 +17,24 @@
 }
 
 #top-section {
-
+    background: red;
+    height: 70vh;
 }
 
 #mid-section {
-
+    background: green;
+    height: 70vh;
 }
 
 #bottom-section {
+    background: blue;
+    height: 70vh;
+}
 
+
+
+
+/* CLASS SELECTORS */
+.section {
+    width: 100%;
 }
