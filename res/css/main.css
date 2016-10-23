@@ -1,7 +1,7 @@
-
+/* reset browser defaults */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 /* ID SELECTORS */
@@ -10,31 +10,36 @@
     width: 100%;
 }
 
-
-#wrapper {
-    width: 70%;
-    margin: 0 auto;
-}
-
 #top-section {
-    background: red;
-    height: 70vh;
+    background-image: url("../media/images/kite.jpg");
 }
 
-#mid-section {
-    background: green;
-    height: 70vh;
+#middle-section {
+    background-image: url("../media/images/computer.png");
 }
 
 #bottom-section {
-    background: blue;
-    height: 70vh;
+    background-image: url("../media/images/patrol-arctic.jpg");
 }
 
-
-
+/*#monitor {*/
+    /*background-image: url("../media/images/monitor.png");*/
+/*}*/
 
 /* CLASS SELECTORS */
-.section {
-    width: 100%;
+
+.center-me {
+    margin: 0 auto;
 }
+
+.section {
+    height: 80vh;
+    background-size: 100% 100%;
+}
+
+/*.image {*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*height: 30vh;*/
+    /*width: 100%;*/
+/*}*/
