@@ -11,15 +11,15 @@
 }
 
 #top-section {
-    background-image: url("../media/images/kite.jpg");
+    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/kite.jpg");
 }
 
 #middle-section {
-    background-image: url("../media/images/computer.png");
+    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/computer.png");
 }
 
 #bottom-section {
-    background-image: url("../media/images/patrol-arctic.jpg");
+    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/patrol-arctic.jpg");
 }
 
 /*#monitor {*/
