@@ -15,16 +15,16 @@
 }
 
 #middle-section {
-    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/computer.png");
+    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/white.jpg");
 }
 
 #bottom-section {
     background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/patrol-arctic.jpg");
 }
 
-/*#monitor {*/
-    /*background-image: url("../media/images/monitor.png");*/
-/*}*/
+#monitor {
+    background-image: url("../media/images/monitor.png");
+}
 
 /* CLASS SELECTORS */
 
@@ -37,9 +37,10 @@
     background-size: 100% 100%;
 }
 
-/*.image {*/
-    /*position: relative;*/
-    /*display: block;*/
-    /*height: 30vh;*/
-    /*width: 100%;*/
-/*}*/
+.image {
+    position: relative;
+    display: block;
+    height: 30vh;
+    background-repeat: no-repeat;
+    text-align: center;
+}
