@@ -24,6 +24,7 @@
 
 #monitor {
     background-image: url("../media/images/monitor.png");
+    background-position: center top;
 }
 
 /* CLASS SELECTORS */
