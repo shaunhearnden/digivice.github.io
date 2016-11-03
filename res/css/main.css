@@ -4,45 +4,92 @@
     padding: 0;
 }
 
+main {
+    background-size: cover;
+    background: url("../media/images/kite.jpg") fixed;
+}
+
+section {
+    height: 70vh;
+
+    background: no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+img {
+    display: block;
+    height: 50vh;
+    width: 30vw;
+    padding-top: 10vh;
+}
+
+footer {
+    text-align: center;
+}
+
+#monitor_screen {
+    height: 32.4vh;
+    width: 25.7vw;
+
+    /*Placing the div over the screen*/
+    position: absolute;
+    left: 36.6vw;
+    bottom: 25vh;
+
+    /*Attribute added just for illusion of screen turning on*/
+    opacity: 0;
+}
+
+#monitor_screen:hover{
+    /* fit image to screen size */
+    background-image: url("../media/images/kite.jpg");
+    background-size: 100% 100%;
+
+    /*animate to 100% opacity over 3 seconds*/
+    transition: opacity 3s ease;
+    opacity: 1;
+}
+
+#monitor_screen p:nth-child(4) {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 9vh;
+}
+
 /* ID SELECTORS */
 #main-container {
-    float: left;
-    width: 100%;
+    background-color: black;
 }
 
-#top-section {
-    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/kite.jpg");
-}
-
-#middle-section {
-    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/white.jpg");
-}
-
-#bottom-section {
+#section_1 {
     background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/patrol-arctic.jpg");
 }
 
-#monitor-container {
-    background-color: blue;
+#section_2 {
+    position: relative;
+    background-color: white;
 }
 
-#monitor {
+#section_3 {
+    background-color: yellow;
+}
+
+#section_4 {
+    margin-top: 25vh;
+    background-color: orange;
+}
+
+#section_5 {
+    background-image: url("../media/images/forest-patrol.jpg");
 }
 
 /* CLASS SELECTORS */
-.center-me {
+.center_me {
     margin: 0 auto;
 }
 
-.section {
-    height: 80vh;
-    width: 100%;
-    background-size: cover;
-    float: left;
-    /*text-align: center;*/
-}
-
-.image {
-    display: block;
-    height: 60vh;
+.cover_page {
+    height: 100vh;
 }
