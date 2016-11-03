@@ -22,13 +22,15 @@
     background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/patrol-arctic.jpg");
 }
 
+#monitor-container {
+    background-color: blue;
+}
+
 #monitor {
-    background-image: url("../media/images/monitor.png");
-    background-position: center top;
+    margin-top: 200px;
 }
 
 /* CLASS SELECTORS */
-
 .center-me {
     margin: 0 auto;
 }
@@ -36,12 +38,10 @@
 .section {
     height: 80vh;
     background-size: 100% 100%;
+    /*text-align: center;*/
 }
 
 .image {
-    position: relative;
     display: block;
-    height: 30vh;
-    background-repeat: no-repeat;
-    text-align: center;
+    height: 60vh;
 }
