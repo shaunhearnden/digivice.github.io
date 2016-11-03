@@ -27,7 +27,6 @@
 }
 
 #monitor {
-    margin-top: 200px;
 }
 
 /* CLASS SELECTORS */
@@ -37,7 +36,9 @@
 
 .section {
     height: 80vh;
-    background-size: 100% 100%;
+    width: 100%;
+    background-size: cover;
+    float: left;
     /*text-align: center;*/
 }
 
