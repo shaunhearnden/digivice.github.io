@@ -2,16 +2,16 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 2vw;
 }
 
 main {
     background-size: cover;
-    background: url("../media/images/kite.jpg") fixed;
+    background: url("../media/images/patrol-arctic.jpg") fixed center no-repeat;
 }
 
 section {
     height: 70vh;
-
     background: no-repeat center fixed;
     background-size: 100% 100%;
 }
@@ -20,29 +20,35 @@ img {
     display: block;
     height: 50vh;
     width: 30vw;
-    padding-top: 10vh;
 }
 
 footer {
     text-align: center;
 }
 
-#monitor_screen {
-    height: 32.4vh;
-    width: 25.7vw;
-
-    /*Placing the div over the screen*/
+#monitor {
     position: absolute;
     left: 36.6vw;
-    bottom: 25vh;
+    top: 10vh;
+    height: 50vh;
+    width: 30vw;
+    background-color: aqua;
+}
 
+#monitor_screen {
+    position: absolute;
+    top: 5.1%;
+    left: 7.7%;
+    height: 33vh;
+    width: 25.4vw;
     /*Attribute added just for illusion of screen turning on*/
-    opacity: 0;
+    opacity: 1;
+    background-color: red;
 }
 
 #monitor_screen:hover{
+    background-image: url("../media/images/patrol-forest.jpg");
     /* fit image to screen size */
-    background-image: url("../media/images/kite.jpg");
     background-size: 100% 100%;
 
     /*animate to 100% opacity over 3 seconds*/
@@ -51,20 +57,16 @@ footer {
 }
 
 #monitor_screen p:nth-child(4) {
+    margin-top: 9vh;
+    text-align: center;
     color: white;
     font-size: 4rem;
     font-weight: bold;
-    text-align: center;
-    margin-top: 9vh;
 }
 
 /* ID SELECTORS */
-#main-container {
-    background-color: black;
-}
-
 #section_1 {
-    background-image: url("https://raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/patrol-arctic.jpg");
+    background-image: url("//raw.githubusercontent.com/Digivice/digivice.github.io/master/res/media/images/patrol-arctic.jpg");
 }
 
 #section_2 {
@@ -82,14 +84,19 @@ footer {
 }
 
 #section_5 {
-    background-image: url("../media/images/forest-patrol.jpg");
+    background-image: url("../media/images/patrol-forest.jpg");
+}
+
+#btn_test {
+    height: 10vh;
+    width: 15vw;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
 }
 
 /* CLASS SELECTORS */
-.center_me {
-    margin: 0 auto;
-}
-
 .cover_page {
     height: 100vh;
+    width: 100vw;
 }
