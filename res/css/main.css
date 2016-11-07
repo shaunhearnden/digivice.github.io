@@ -32,18 +32,19 @@ footer {
     top: 10vh;
     height: 50vh;
     width: 30vw;
-    background-color: aqua;
 }
 
 #monitor_screen {
     position: absolute;
+
+    /*Mixing % and vh/vw values may be poor practice?*/
     top: 5.1%;
     left: 7.7%;
     height: 33vh;
     width: 25.4vw;
+
     /*Attribute added just for illusion of screen turning on*/
-    opacity: 1;
-    background-color: red;
+    opacity: 0;
 }
 
 #monitor_screen:hover{
