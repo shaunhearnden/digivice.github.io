@@ -1,0 +1,6 @@
+.cover_page {
+    height: 100vh;
+    width: 100vw;
+
+    /*-webkit-filter: blur(5px);*/
+}

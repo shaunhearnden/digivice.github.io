@@ -1,0 +1,38 @@
+#monitor {
+    position: absolute;
+    left: 36.6vw;
+    top: 10vh;
+    height: 50vh;
+    width: 30vw;
+}
+
+#monitor_screen {
+    position: absolute;
+
+    /*Mixing % and vh/vw values may be poor practice?*/
+    top: 5.1%;
+    left: 7.7%;
+    height: 33vh;
+    width: 25.4vw;
+
+    /*Attribute added just for illusion of screen turning on*/
+    opacity: 0;
+}
+
+#monitor_screen:hover{
+    background-image: url("../media/images/patrol-forest.jpg");
+    /* fit image to screen size */
+    background-size: 100% 100%;
+
+    /*animate to 100% opacity over 3 seconds*/
+    transition: opacity 3s ease;
+    opacity: 1;
+}
+
+#monitor_screen p:nth-child(4) {
+    margin-top: 9vh;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
