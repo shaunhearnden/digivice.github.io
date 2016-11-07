@@ -1,3 +1,5 @@
-/**
- * Created by kayla on 22/10/2016.
- */
+function show_monitor_screen(){
+    if(document.body.scrollTop > (screen.height * 3)){ // 300vh
+        console.log(document.getElementById("monitor-screen"));
+    }
+}
